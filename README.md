@@ -1,5 +1,5 @@
 # i-spy
-Play the I Spy game with the [Kinova Gen3] Robot!
+Play the [I Spy] game with the [Kinova Gen3] Robot!
 
 ## Software Requirements:
 - [Ubuntu 18.04.6]
@@ -56,3 +56,4 @@ $ rosrun ispy stateMachine.py
   [ros_kortex_vision]: <https://github.com/Kinovarobotics/ros_kortex_vision>
   [espeak]: <http://espeak.sourceforge.net>
   [PyAudio]: <http://people.csail.mit.edu/hubert/pyaudio/#downloads>
+  [I Spy]: <https://en.wikipedia.org/wiki/I_spy>
