@@ -39,7 +39,7 @@ $ source devel/setup.bash
 $ rosrun ispy stateMachine.py
 ```
 
-## State Machines
+## State Machine Interactions
 
 <img src="https://user-images.githubusercontent.com/83174840/176863533-5570e49f-d987-4cc4-bc51-cee35bc2f47f.png" width="350" height="350" />
 
