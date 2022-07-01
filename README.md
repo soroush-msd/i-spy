@@ -1,7 +1,7 @@
 # i-spy
 Play the [I Spy] game with the [Kinova Gen3] Robot!
 
-## Software Requirements:
+## Software/Library Requirements:
 - [Ubuntu 18.04.6]
 - [ROS Melodic]
 - [rospy]
