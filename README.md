@@ -14,10 +14,29 @@ Play the I Spy game with the [Kinova Gen3] Robot!
 - [opencv-python] v4.2.0.32
 - [cv_bridge]
 - [SpeechRecognition]
+- [PyAudio]
 - [pyttsx3]
+- [espeak]
 - [ros_kortex_vision]
 
+### Build
 
+```sh
+$ cd ~/catkin_ws/
+$ catkin_make
+```
+### Run
+
+In one terminal:
+```sh
+$ roscore
+```
+And in another terminal:
+```sh
+$ cd ~/catkin_ws/
+$ source devel/setup.bash
+$ rosrun ispy stateMachine.py
+```
 
 
   [darknet_ros]: <https://github.com/leggedrobotics/darknet_ros>
@@ -35,3 +54,5 @@ Play the I Spy game with the [Kinova Gen3] Robot!
   [Ubuntu 18.04.6]: <https://releases.ubuntu.com/18.04/>
   [Kinova Gen3]: <https://www.kinovarobotics.com/product/gen3-robots>
   [ros_kortex_vision]: <https://github.com/Kinovarobotics/ros_kortex_vision>
+  [espeak]: <http://espeak.sourceforge.net>
+  [PyAudio]: <http://people.csail.mit.edu/hubert/pyaudio/#downloads>
