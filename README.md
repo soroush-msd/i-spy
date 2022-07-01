@@ -1,20 +1,21 @@
 # i-spy
-Play the I Spy game with the Kinova Gen3 Robot!
+Play the I Spy game with the [Kinova Gen3] Robot!
 
 ## Software Requirements:
 - [Ubuntu 18.04.6]
 - [ROS Melodic]
 - [rospy]
-- [darknet_ros]
-- [OpenCV]
-- [opencv-python] v4.2.0.32
-- [SpeechRecognition]
-- [pyttsx3]
-- [cv_bridge]
 - [smach]
 - [actionlib]
 - [sensor_msgs]
 - [roslaunch]
+- [darknet_ros]
+- [OpenCV]
+- [opencv-python] v4.2.0.32
+- [cv_bridge]
+- [SpeechRecognition]
+- [pyttsx3]
+- [ros_kortex_vision]
 
 
 
@@ -32,3 +33,5 @@ Play the I Spy game with the Kinova Gen3 Robot!
   [rospy]: <http://wiki.ros.org/rospy>
   [ROS Melodic]: <http://wiki.ros.org/melodic/Installation/Ubuntu>
   [Ubuntu 18.04.6]: <https://releases.ubuntu.com/18.04/>
+  [Kinova Gen3]: <https://www.kinovarobotics.com/product/gen3-robots>
+  [ros_kortex_vision]: <https://github.com/Kinovarobotics/ros_kortex_vision>
