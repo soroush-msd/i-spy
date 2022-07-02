@@ -10,14 +10,15 @@ Play the [I Spy] game with the [Kinova Gen3] Robot!
   - [actionlib]
   - [sensor_msgs]
   - [cv_bridge]
-- [SpeechRecognition]
-  - [PyAudio]
-- [pyttsx3]
-  - [espeak]
 - [darknet_ros]
 - [ros_kortex_vision]
 - [OpenCV]
 - [opencv-python] v4.2.0.32
+- [SpeechRecognition]
+  - [PyAudio]
+- [pyttsx3]
+  - [espeak]
+
 
 
 
