@@ -20,7 +20,12 @@ Play the [I Spy] game with the [Kinova Gen3] Robot!
   - [espeak]
 
 
+## Installation
 
+```sh
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/soroush-msd/i-spy.git
+```
 
 
 ## Build
