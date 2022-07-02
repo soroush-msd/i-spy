@@ -1,23 +1,25 @@
 # i-spy
 Play the [I Spy] game with the [Kinova Gen3] Robot!
 
-## Software/Library Requirements:
+## Main Software/Library Requirements:
 - [Ubuntu 18.04.6]
 - [ROS Melodic]
-- [rospy]
-- [smach]
-- [actionlib]
-- [sensor_msgs]
-- [roslaunch]
+  - [rospy]
+  - [roslaunch]
+  - [smach]
+  - [actionlib]
+  - [sensor_msgs]
+  - [cv_bridge]
+- [SpeechRecognition]
+  - [PyAudio]
+- [pyttsx3]
+  - [espeak]
 - [darknet_ros]
+- [ros_kortex_vision]
 - [OpenCV]
 - [opencv-python] v4.2.0.32
-- [cv_bridge]
-- [SpeechRecognition]
-- [PyAudio]
-- [pyttsx3]
-- [espeak]
-- [ros_kortex_vision]
+
+
 
 
 ## Build
@@ -36,7 +38,7 @@ And in another terminal:
 ```sh
 $ cd ~/catkin_ws/
 $ source devel/setup.bash
-$ rosrun ispy stateMachine.py
+$ rosrun i-spy stateMachine.py
 ```
 
 ## State Machine Interactions
