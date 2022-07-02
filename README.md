@@ -44,7 +44,7 @@ And in another terminal:
 ```sh
 $ cd ~/catkin_ws/
 $ source devel/setup.bash
-$ rosrun i-spy stateMachine.py
+$ rosrun i-spy stateMachine.py [f]emale/[m]ale [h]uman/[r]obot/[g]reeting
 ```
 ## How To Play?
 This is a voice-based interaction. You need to have three components connected to your system:
