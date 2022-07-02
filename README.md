@@ -46,6 +46,11 @@ $ cd ~/catkin_ws/
 $ source devel/setup.bash
 $ rosrun i-spy stateMachine.py
 ```
+## How To Play?
+This is a voice-based interaction. You need to have three components connected to your system:
+1. A microphone through which you will speak to the robot.
+2. A speaker through which the robot will speak to you.
+3. The Kinova Gen3 Robotic Arm with a working camera to enable the robot to see and detect objects in the environment.
 
 ## State Machine Interactions
 
