@@ -1,7 +1,7 @@
 # i-spy
 Play the [I Spy] game with the [Kinova Gen3] Robot!
 
-## Main Software/Library Requirements:
+## Main Software Requirements:
 - [Ubuntu 18.04.6]
 - [ROS Melodic]
   - [rospy]
@@ -71,6 +71,20 @@ $ rosrun i-spy stateMachine.py m g
 ```
 The robot will play scenario 3 with the male voice.
 > Note: `g` stands for greeting in the command line arguments. Refer to scenario 3 for the explanation.
+
+
+## Important Notes:
+:warning: Your microphone needs to remain mute except when you are required to speak to the robot. When ready to speak:
+1. Unmute the microphone,
+2. Provide input, 
+3. Mute back the microphone.
+
+This might be due to the sensitivity of different microphones and the variety of energy level thresholds needed to adjust to ambient noise.\
+\
+\
+:warning: When the robot asks you about the first letter of the object, you need to provide input by speaking in the following format:
+- `letter x`, for example, if the object starts with `x`. Or
+- `letter y`, for example, if the object starts with `y`.
 
 ## State Machine Interactions
 
