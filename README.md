@@ -45,6 +45,32 @@ This is a voice-based interaction. You need to have three components connected t
 2. A speaker through which the robot will speak to you.
 3. The Kinova Gen3 Robotic Arm with a working camera to enable the robot to see and detect objects in the environment.
 
+There are two/three-ish different scenarios you can play the game with two distinct voices (male/female).
+1. The robot looks around, chooses one random object, picks its first letter and then you will guess the matching object.
+2. You look around, choose one random object within the robot's FOV and pick its first letter. The robot then asks you for the letter and tries to guess the matching object.
+3. The robot greets you, introduces itself, and then starts scenario 1.
+
+
+So, for example, if you run:
+```sh
+$ rosrun i-spy stateMachine.py f r
+```
+The robot will play scenario 1 with the female voice.
+
+
+If you run:
+```sh
+$ rosrun i-spy stateMachine.py m h
+```
+The robot will play scenario 2 with the male voice.
+
+
+Similarly, if you run:
+```sh
+$ rosrun i-spy stateMachine.py m g
+```
+The robot will play scenario 3 with the male voice.
+
 ## State Machine Interactions
 
 <img src="https://user-images.githubusercontent.com/83174840/176863533-5570e49f-d987-4cc4-bc51-cee35bc2f47f.png" width="350" height="350" />
