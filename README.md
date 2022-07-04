@@ -41,11 +41,11 @@ $ rosrun i-spy stateMachine.py [f]emale/[m]ale [h]uman/[r]obot/[g]reeting
 ```
 ## How To Play?
 This is a voice-based interaction. You need to have three components connected to your system:
-1. A microphone through which you will speak to the robot.
-2. A speaker through which the robot will speak to you.
-3. The Kinova Gen3 Robotic Arm with a working camera to enable the robot to see and detect objects in the environment.
+- A microphone through which you will speak to the robot.
+- A speaker through which the robot will speak to you.
+- The Kinova Gen3 Robotic Arm with a working camera to enable the robot to see and detect objects in the environment.
 
-There are two/three-ish different scenarios you can play the game with two distinct voices (male/female).
+There are two/three-ish different scenarios you can play the game:
 1. The robot looks around, chooses one random object, picks its first letter and then you will guess the matching object.
 2. You look around, choose one random object within the robot's FOV and pick its first letter. The robot then asks you for the letter and tries to guess the matching object.
 3. The robot greets you, introduces itself, and then starts scenario 1.
@@ -56,20 +56,21 @@ So, for example, if you run:
 $ rosrun i-spy stateMachine.py f r
 ```
 The robot will play scenario 1 with the female voice.
+> Note: `f` stands for female, and `r` stands for robot in the command line arguments. This means the robot will have a female voice and will be providing a letter for the user to guess.
 
-
-If you run:
+Or, if you run:
 ```sh
 $ rosrun i-spy stateMachine.py m h
 ```
 The robot will play scenario 2 with the male voice.
-
+> Note: `m` stands for male, and `h` stands for human in the command line arguments. This means the robot will have a female voice, and you will be providing a letter for the robot to guess.
 
 Similarly, if you run:
 ```sh
 $ rosrun i-spy stateMachine.py m g
 ```
 The robot will play scenario 3 with the male voice.
+> Note: `g` stands for greeting in the command line arguments. Refer to scenario 3 for the explanation.
 
 ## State Machine Interactions
 
