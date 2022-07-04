@@ -88,7 +88,7 @@ def sr_optimise(guess):
         guess = "cup"
     if(guess == "caesars" or guess == "caesarstone"):
         guess = "scissors"
-    if(guess == "fort" or guess == "pork" or guess == "fork" or guess == "talk" or guess == "torch" or guess == "fuk" or guess == "foot" or guess == "thought" or guess == "porch" or guess == "fox"):
+    if(guess == "fort" or guess == "pork" or guess == "talk" or guess == "torch" or guess == "fuk" or guess == "foot" or guess == "thought" or guess == "porch" or guess == "fox"):
         guess = "fork"
     if(guess == "butter" or guess == "battle" or guess == "butthole"):
         guess = "bottle"
@@ -517,3 +517,4 @@ if __name__ == '__main__':
     launch.shutdown()
     data.writelines("**********************"+"\n")
     data.close()
+    
