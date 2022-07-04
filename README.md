@@ -46,7 +46,7 @@ This is a voice-based interaction. You need to have three components connected t
 - The Kinova Gen3 Robotic Arm with a working camera to enable the robot to see and detect objects in the environment.
 
 There are two/three-ish different scenarios you can play the game:
-1. The robot looks around, chooses one random object, picks its first letter and then you will guess the matching object.
+1. The robot looks around, chooses one random object, picks its first letter and then you will need to guess the matching object.
 2. You look around, choose one random object within the robot's FOV and pick its first letter. The robot then asks you for the letter and tries to guess the matching object.
 3. The robot greets you, introduces itself, and then starts scenario 1.
 
