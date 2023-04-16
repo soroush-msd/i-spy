@@ -92,19 +92,44 @@ The diagram below demonstrates the interactions and transitions between state ma
 <img src="https://user-images.githubusercontent.com/83174840/176863533-5570e49f-d987-4cc4-bc51-cee35bc2f47f.png" width="350" height="350" />
 
 ## Demo Videos
+The videos below demonstrate the interactions between a human participant and the robot playing the game in different scenarios.
 
-
+**Scenario 3 with female voice**\
+Related command:
+```sh
+$ rosrun i-spy stateMachine.py f g
+```
 https://user-images.githubusercontent.com/83174840/232294901-599f0393-e303-4b49-bb6e-8f8d5d14eb50.mp4
 
 
+\
+\
+**Scenario 2 with female voice**\
+Related command:
+```sh
+$ rosrun i-spy stateMachine.py f h
+```
 https://user-images.githubusercontent.com/83174840/232299016-5fbcb934-582c-48cf-b23b-275ca0bae160.mp4
 
 
+\
+\
+**Scenario 1 with male voice**\
+Related command:
+```sh
+$ rosrun i-spy stateMachine.py m r
+```
 https://user-images.githubusercontent.com/83174840/232307693-9cffd87c-36ae-4417-812c-d43104828ce0.mp4
 
 
+\
+\
+**Scenario 2 with male voice**\
+Related command:
+```sh
+$ rosrun i-spy stateMachine.py m h
+```
 https://user-images.githubusercontent.com/83174840/232307703-21f5c09a-1dc2-4fcf-a26a-3b28b7200271.mp4
-
 
 
 
