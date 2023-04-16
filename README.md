@@ -87,6 +87,7 @@ This might be due to the sensitivity of different microphones and the variety of
 - `letter y`, for example, if the object starts with `y`.
 
 ## State Machine Interactions
+The diagram below demonstrates the interactions and transitions between state machines in different stages during the game:
 
 <img src="https://user-images.githubusercontent.com/83174840/176863533-5570e49f-d987-4cc4-bc51-cee35bc2f47f.png" width="350" height="350" />
 
