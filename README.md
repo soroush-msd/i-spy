@@ -131,7 +131,8 @@ $ rosrun i-spy stateMachine.py m h
 ```
 https://user-images.githubusercontent.com/83174840/232307703-21f5c09a-1dc2-4fcf-a26a-3b28b7200271.mp4
 
-
+## :books: More Info
+For more information regarding this project and the whys and hows: **[CLICK ME]**
 
   [darknet_ros]: <https://github.com/leggedrobotics/darknet_ros>
   [OpenCV]: <https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html>
@@ -151,3 +152,4 @@ https://user-images.githubusercontent.com/83174840/232307703-21f5c09a-1dc2-4fcf-
   [espeak]: <http://espeak.sourceforge.net>
   [PyAudio]: <http://people.csail.mit.edu/hubert/pyaudio/#downloads>
   [I Spy]: <https://en.wikipedia.org/wiki/I_spy>
+  [CLICK ME]: <https://drive.google.com/file/d/1Z-VLi4n4y3rUjMPX5MRW7PZFIsvanAAH/view?usp=sharing>
